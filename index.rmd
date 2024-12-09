@@ -94,6 +94,7 @@ DT::datatable(
 )
 ```
 Above is a preview of the dataset we are using! This is thanks to the [NFL Data Python Package](https://github.com/nflverse/nfl_data_py). Given the timeframe of this project, we will be focusing on the following positions:
+
 - QBs
 - RBs
 - WRs
@@ -291,7 +292,7 @@ fig.update_layout(
 )
 fig = px.bar(normalize[normalize['position'] == 'WR'].sort_values(by='normalized_ffb_points', ascending=False).head(10), x='player_name', y='normalized_ffb_points')
 fig.update_layout(
-    title='Top 10 RBs',
+    title='Top 10 WRs',
     xaxis_title='Player',
     yaxis_title='Normalized Fantasy Football Points'
 )
