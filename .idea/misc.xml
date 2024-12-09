@@ -44,6 +44,7 @@
         <entry key="file://$PROJECT_DIR$/index.rmd">
           <value>
             <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/write-up.html" />
               <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$" />
             </RMarkdownRenderProfile>
           </value>
