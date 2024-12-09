@@ -3,18 +3,10 @@ title: "Fantasy Football 2024 Analysis"
 author: Andrew Suter
 date: "Last Updated: `r Sys.Date()`"
 output:
-    bookdown::gitbook:
+    bookdown::html_document2:
         highlight: tango
-        config:
-            sharing:
-                facebook: no
-                twitter: yes
-                google: no
-                linkedin: yes
-                weibo: no
-                instagram: no
-                vk: no
-                all: ['twitter', 'linkedin']
+        toc: true
+        theme: united
 
 ---
 ```{r setup, include=FALSE}
